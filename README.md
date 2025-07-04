@@ -56,7 +56,7 @@ The dataset is synthetic and mimics real-world fertilizer recommendation systems
 - `train.csv`: Training data with features and fertilizer labels.
 - `test.csv`: Test data for inference.
 - `Fertilizer Prediction.csv`: Augmented original dataset used for pseudo-labeling and logistic regression enrichment.
-
+- [dataset](https://www.kaggle.com/competitions/playground-series-s5e6/data)
 ---
 
 ## 📈 Evaluation Metric
@@ -68,8 +68,8 @@ This metric measures if the correct fertilizer label appears in the top-3 predic
 
 ## 📌 Results Summary
 
-- **Best LB Score**: `0.358`  
-- Goal: Improve to `0.37+` via advanced ensemble and augmentation strategies
+- **Best Private score**: `0.35943` 
+- **Best Public score**: `0.35943` 
 
 Strategies tested so far:
 - Logistic Regression + Feature Cross + One-Hot Encoding
